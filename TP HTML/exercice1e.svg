@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <rect x="320" y="100" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+    <svg x="320" y="100" width="100" height="50">
+      <text x="20" y="30" fill="black" >Document</text>
+    </svg>
+  <rect x="320" y="200" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+    <svg x="320" y="200" width="100" height="50">
+      <text x="10" y="20" fill="black" >Root Element:<tspan x="25" y="40">&lt;html&gt;</tspan></text>
+    </svg>
+  <rect x="50" y="300" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+    <svg x="50" y="300" width="100" height="50">
+      <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;head&gt;</tspan></text>
+    </svg>
+  <rect x="600" y="300" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+    <svg x="600" y="300" width="100" height="50">
+      <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;body&gt;</tspan></text>
+    </svg>
+  <rect x="50" y="400" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+    <svg x="50" y="400" width="100" height="50">
+      <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;title&gt;</tspan></text>
+    </svg>
+  <rect x="300" y="400" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+    <svg x="300" y="400" width="100" height="50">
+      <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;nav&gt;</tspan></text>
+    </svg>
+  <rect x="500" y="400" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+    <svg x="500" y="400" width="100" height="50">
+      <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;div&gt;</tspan></text>
+    </svg>
+  <rect x="700" y="400" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+    <svg x="700" y="400" width="100" height="50">
+      <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;div&gt;</tspan></text>
+    </svg>
+  <rect x="900" y="400" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+    <svg x="900" y="400" width="100" height="50">
+      <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;div&gt;</tspan></text>
+    </svg>
+
+    <rect x="300" y="500" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+      <svg x="300" y="500" width="100" height="50">
+        <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;ul&gt;</tspan></text>
+      </svg>
+    <rect x="440" y="500" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+      <svg x="440" y="500" width="100" height="50">
+        <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;img&gt;</tspan></text>
+      </svg>
+    <rect x="560" y="500" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+      <svg x="560" y="500" width="100" height="50">
+        <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;p&gt;</tspan></text>
+      </svg>
+    <rect x="700" y="500" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+      <svg x="700" y="500" width="100" height="50">
+        <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;p&gt;</tspan></text>
+      </svg>
+    <rect x="900" y="500" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+      <svg x="900" y="500" width="100" height="50">
+        <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;p&gt;</tspan></text>
+      </svg>
+
+      <rect x="300" y="600" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+        <svg x="300" y="600" width="100" height="50">
+          <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;li&gt;</tspan></text>
+        </svg>
+      <rect x="180" y="600" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+        <svg x="180" y="600" width="100" height="50">
+          <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;li&gt;</tspan></text>
+        </svg>
+      <rect x="420" y="600" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+        <svg x="420" y="600" width="100" height="50">
+          <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;li&gt;</tspan></text>
+        </svg>
+      <rect x="560" y="600" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+        <svg x="560" y="600" width="100" height="50">
+          <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;h1&gt;</tspan></text>
+        </svg>
+      <rect x="700" y="600" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+        <svg x="700" y="600" width="100" height="50">
+          <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;h1&gt;</tspan></text>
+        </svg>
+      <rect x="900" y="600" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+        <svg x="900" y="600" width="100" height="50">
+          <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;h1&gt;</tspan></text>
+        </svg>
+
+        <rect x="300" y="700" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+          <svg x="300" y="700" width="100" height="50">
+            <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;a&gt;</tspan></text>
+          </svg>
+        <rect x="180" y="700" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+          <svg x="180" y="700" width="100" height="50">
+            <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;a&gt;</tspan></text>
+          </svg>
+        <rect x="420" y="700" width="100" height="50" fill="none" stroke="blue" stroke-width="1"/>
+          <svg x="420" y="700" width="100" height="50">
+            <text x="25" y="20" fill="black" >Element:<tspan x="25" y="40">&lt;a&gt;</tspan></text>
+          </svg>
+    <polyline points="100,300 100,275 650,275 650,300" fill="none" stroke="blue" stroke-width="1"/>
+    <polyline points="350,400 350,375 950,375 950,400" fill="none" stroke="blue" stroke-width="1"/>
+    <polyline points="490,500 490,475 610,475 610,500" fill="none" stroke="blue" stroke-width="1"/>
+    <polyline points="230,600 230,575 470,575 470,600" fill="none" stroke="blue" stroke-width="1"/>
+    <line x1="370" y1="150" x2="370" y2="200" stroke="blue" stroke-width="1"/>
+    <line x1="370" y1="250" x2="370" y2="275" stroke="blue" stroke-width="1"/>
+    <line x1="100" y1="350" x2="100" y2="400" stroke="blue" stroke-width="1"/>
+    <line x1="650" y1="350" x2="650" y2="375" stroke="blue" stroke-width="1"/>
+    <line x1="550" y1="375" x2="550" y2="400" stroke="blue" stroke-width="1"/>
+    <line x1="750" y1="375" x2="750" y2="400" stroke="blue" stroke-width="1"/>
+    <line x1="350" y1="450" x2="350" y2="500" stroke="blue" stroke-width="1"/>
+    <line x1="550" y1="450" x2="550" y2="475" stroke="blue" stroke-width="1"/>
+    <line x1="750" y1="450" x2="750" y2="500" stroke="blue" stroke-width="1"/>
+    <line x1="950" y1="450" x2="950" y2="500" stroke="blue" stroke-width="1"/>
+    <line x1="350" y1="550" x2="350" y2="575" stroke="blue" stroke-width="1"/>
+    <line x1="610" y1="550" x2="610" y2="600" stroke="blue" stroke-width="1"/>
+    <line x1="750" y1="550" x2="750" y2="600" stroke="blue" stroke-width="1"/>
+    <line x1="950" y1="550" x2="950" y2="600" stroke="blue" stroke-width="1"/>
+    <line x1="230" y1="650" x2="230" y2="700" stroke="blue" stroke-width="1"/>
+    <line x1="350" y1="650" x2="350" y2="700" stroke="blue" stroke-width="1"/>
+    <line x1="470" y1="650" x2="470" y2="700" stroke="blue" stroke-width="1"/>
+</svg>
