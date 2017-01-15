@@ -1,0 +1,28 @@
+{
+  "slides": [
+    {
+      "time": 0,
+      "url": "http://www.telecom-paristech.fr"
+    },
+    {
+      "time": 15,
+      "url": "https://www.theatlantic.com"
+    },
+    {
+      "time": 30,
+      "url": "http://www.w3schools.com"
+    },
+    {
+      "time": 45,
+      "url": "http://www.lefigaro.fr"
+    },
+    {
+      "time": 60,
+      "url": "http://www.mozilla.com"
+    },
+    {
+      "time": 75,
+      "url": ""
+    }
+  ]
+}

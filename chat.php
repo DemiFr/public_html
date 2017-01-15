@@ -6,9 +6,10 @@ $chaine .= "<a href='javascript:recherche(\"" . gethostbyname($_SERVER['SERVER_N
 $chaine .=  " - " . $_GET['phrase'];
 
 
+
 $fp = fopen("texte.html","a");
 
-fwrite($fp, $chaine);
+fwrite($fp, stripslashes($chaine));
 fclose($fp);
 echo "Ecriture reussie";
 
