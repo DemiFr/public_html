@@ -2,8 +2,8 @@
 var obj;
 var flagPause = false;
 var iGlobal = 0;
-var globalTime = 0;
-var curcleTime = 90;
+var timeDiff = 0;
+var curcleTime = 90;      //Set the max time for a single round of display
 var coef = 300;         //globalTile * coef
 function loadJSON() {       //callback here?
     var xhr = new XMLHttpRequest();
@@ -24,21 +24,24 @@ function pause() {
         playSingleSlide((iGlobal-1) % obj.slides.length);
     }
     else{
-      //Make the slides continue
+        //Make the slides continue
         buttonPauseContinuer.value = "Pause";
         play();
     }
 }
 
 function play() {
-    var timeDiff = obj.slides[1].time - obj.slides[0].time;
     var iCurrent = iGlobal % obj.slides.length;
     if(flagPause==false){
         playSingleSlide(iCurrent);
-        if(iGlobal % obj.slides.length == 0){timeDiff = curcleTime - }
-        else{}
-        setTimeout(play, timeDiff*coef);
+        if(iCurrent == obj.slides.length - 1){
+            timeDiff = curcleTime - obj.slides[obj.slides.length-1].time; //The time difference between the last silde and the max time
+        }
+        else{
+            timeDiff = obj.slides[iCurrent+1].time - obj.slides[iCurrent].time;
+        }
         iGlobal++;
+        setTimeout(play, timeDiff*coef);
     }
 }
 
