@@ -11,12 +11,6 @@ function loadJSON(callback) {       //callback here?
 }
 
 function play() {
-  var i= 0;
-  //while(true){
-    //setTimeout(playSingleSlide, obj.slides[i].time*200, i);
-    //i++;
-    //if(i==obj.slides.length) {i=0;}
-  //}
   for(var i = 0; i < obj.slides.length; i++){
     setTimeout(playSingleSlide, obj.slides[i].time*200, i);
   }
