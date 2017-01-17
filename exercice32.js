@@ -2,12 +2,14 @@
 var obj;
 var flagPause = false;
 var iGloble = 0;
+var globalTime = 0;
+var timeInitial = new Date().getTime();
+var coef = 200;         //globalTile * coef
 function loadJSON() {       //callback here?
     var xhr = new XMLHttpRequest();
     xhr.open("GET", "slides.json", true);
     xhr.onload = function(){
         obj = JSON.parse(xhr.responseText);
-        alert("1: " + flagPause);
         play();
     };
     xhr.send();
@@ -17,33 +19,31 @@ function pause() {
     var buttonPauseContinuer = document.getElementById("buttonPauseContinuer");
     flagPause = !flagPause;
     if(flagPause){
-        alert("2: " + flagPause);
-        buttonPauseContinuer.value = "Continue";
+        //Make the slides pause
+        var timeCurrent = new Date().getTime - timeInitial;   //the run time till now, we will use it to judge the current slide
+        //var iCurrent = parseInt((timeInitial % (90*coef))/(15*coef));   //We get the current i
+        alert(timeCurrent);
+        var iCurrent = (timeCurrent % (90*coef))/(15*coef);
+        buttonPauseContinuer.value = "Continue";              //Change the value of button
+        //playSingleSlide(iCurrent);
+        globalTime = 0;
+        iGloble = iCurrent;
     }
     else{
-        alert("3: " + flagPause);
+      //Make the slides continue
         buttonPauseContinuer.value = "Pause";
     }
 }
 
 function play() {
-    for(iGloble; iGloble < obj.slides.length; iGloble++){
-        setTimeout(playSingleSlide, obj.slides[iGloble].time*200, iGloble);
-        if(flagPause) break;
+    if(flagPause==false){
+      var timeDiff = obj.slides[1].time - obj.slides[0].time;
+      setTimeout(playSingleSlide, globalTime*coef, iGloble%obj.slides.length);
+      globalTime = globalTime + timeDiff;
+      iGloble++;
+      play();
     }
 }
-/*
-function play() {
-    var i = 0;
-    var globalTime = 0;
-    // timeDiff: the current time - the time of last slide except when i = 0
-    var timeDiff = obj.slides[1].time - obj.slides[0].time;
-    while(true){
-        setTimeout(playSingleSlide, globalTime*200, i%obj.slides.length);
-        globalTime = globalTime + timeDiff;
-        i++;
-    }
-}*/
 
 function playSingleSlide(i) {
     var div = document.getElementById("MAIN");
